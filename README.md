@@ -7,7 +7,7 @@ You need [Pexels](https://help.pexels.com/hc/en-us/articles/900004904026-How-do-
 
 ## Examples
 
-```
+``` python
 from pexels import Pexels
 
 p = Pexels(api_key="your_pexels_api_key")
@@ -19,7 +19,7 @@ p.get_photo(query, num)
 p.get_video(query, num)
 ```
 
-```
+``` python
 from pixabay import Pixabay
 
 p = Pixabay(api_key="your_pixabay_api_key")
